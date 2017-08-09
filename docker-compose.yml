@@ -11,7 +11,7 @@ services:
             MYSQL_USER: ${MYSQL_USER}
             MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     php:
-        build: php7
+        image: kretin2/er2-php7
         volumes:
             - ./symfony/${APP_NAME}:/var/www/html
             - ./logs/symfony:/var/www/html/app/logs
