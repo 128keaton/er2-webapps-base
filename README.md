@@ -25,14 +25,15 @@ $ docker-compose up -d
 
 Either create a new one or drag your old one to the `symfony` folder.
 
-    i. Update app/config/parameters.yml
+i. Update app/config/parameters.yml
+
     ```
     # symfony/app/config/parameters.yml
     parameters:
         database_host: db
     ```
 
-    ii. Composer install & create database
+ii. Composer install & create database
 
     ```
     $ docker-compose exec php bash

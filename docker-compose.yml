@@ -16,7 +16,7 @@ services:
             - ./symfony/${APP_NAME}:/var/www/html
             - ./logs/symfony:/var/www/html/app/logs
     base:
-        build: er2-base
+        image: kretin2/er2-base
         ports:
             - 80:80
         volumes_from:
