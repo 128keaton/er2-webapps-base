@@ -15,9 +15,10 @@ A simple image that is used for base webapps at ER2
     ```
 
 2. Build/run containers with (with and without detached mode)
-
-`$ docker-compose build`
-`$ docker-compose up -d`
+```
+$ docker-compose build
+$ docker-compose up -d
+```
 
 3. Prepare Symfony app
 
