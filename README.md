@@ -35,7 +35,9 @@ Either create a new one or drag your old one to the `symfony` folder.
    ii. Composer install & create database
     ```
     $ docker-compose exec php bash
+    
     $ composer install  
+    
     $ sf3 doctrine:schema:update --force
     ```
 
