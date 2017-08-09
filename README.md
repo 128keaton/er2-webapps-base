@@ -32,8 +32,6 @@ Either create a new one or drag your old one to the `symfony` folder.
     parameters:
     
         database_host: db
-        
-    ```
 
    ii. Composer install & create database
     ```
@@ -43,5 +41,4 @@ Either create a new one or drag your old one to the `symfony` folder.
     
     $ sf3 doctrine:schema:update --force
     
-    ```
 
